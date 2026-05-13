@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡我們 - ELYSIAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">ELYSIAN</a>
+        <ul class="nav-links">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="about.html">關於品牌</a></li>
+            <li><a href="casual.html">休閒服飾</a></li>
+            <li><a href="formal.html">正式服飾</a></li>
+            <li><a href="jewelry.html">珠寶飾品</a></li>
+            <li><a href="accessories.html">精緻配件</a></li>
+            <li><a href="others.html">其它類</a></li>
+            <li><a href="contact.html" style="color: var(--accent);">聯絡我們</a></li>
+        </ul>
+    </nav>
+
+    <main class="contact-container">
+        <h1 class="section-title">聯絡我們</h1>
+        <p style="text-align: center; margin-bottom: 2rem; color: var(--text-muted);">
+            有任何問題或需要專人服務嗎？請填寫下方表單，我們將儘快與您聯繫。
+        </p>
+        <form action="#" onsubmit="alert('感謝您的訊息！我們將儘快回覆。'); return false;">
+            <label for="name">姓名</label>
+            <input type="text" id="name" placeholder="您的姓名" required>
+            
+            <label for="email">電子郵件</label>
+            <input type="email" id="email" placeholder="email@example.com" required>
+            
+            <label for="subject">主旨</label>
+            <input type="text" id="subject" placeholder="詢問主旨">
+            
+            <label for="message">訊息內容</label>
+            <textarea id="message" rows="5" placeholder="請輸入您的訊息..." required></textarea>
+            
+            <button type="submit" class="btn-primary" style="width: 100%;">送出訊息</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ELYSIAN Luxury. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
